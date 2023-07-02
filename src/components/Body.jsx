@@ -3,6 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './Body.css';
 import PostsGrid from './PostsGrid';
 import About from './About';
+import TextPage from './TextPage';
 
 function Body(props) {
     const { texts } = props;
@@ -16,6 +17,9 @@ function Body(props) {
 
                 {/* About route */}
                 <Route exact path="/about" element={<About />} />
+
+                {/* About route */}
+                <Route exact path="/text" element={<TextPage />} />
 
             </Routes>
         </section >

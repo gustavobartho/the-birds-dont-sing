@@ -19,7 +19,6 @@ function App() {
                     { ...doc.data(), id: doc.id }
                 ));
                 setTexts(newData);
-                console.log(newData);
             })
         } catch (err) {
             setTexts([]);

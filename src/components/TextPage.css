@@ -1,0 +1,19 @@
+.text-page {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-page-div {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.text-page h1 {
+    font-size: 2rem;
+}
+
+.text-page-content {
+    padding-left: 30px;
+}

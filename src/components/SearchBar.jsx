@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './SearchBar.css';
 import SearchIcon from '@mui/icons-material/Search';
-import WindowTopBar from './WindowTopBar';
 import MenuButton from './MenuButton';
 import { useNavigate } from "react-router-dom";
 

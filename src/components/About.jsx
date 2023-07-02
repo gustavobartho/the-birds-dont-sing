@@ -12,7 +12,7 @@ function About() {
 
     return (
         <section className='about-page'>
-            <PromptWindow promptText={promptText} />
+            <PromptWindow text={promptText} />
             <TextWindow>
                 Welcome to <strong>Terrible Experiences Inc.</strong>, where we specialize in delivering the most delightfully dreadful adventures for our cherished customers.
                 Prepare yourself for a journey into the realm of unforgettable misfortune and hilariously unfortunate incidents.

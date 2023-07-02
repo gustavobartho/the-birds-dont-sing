@@ -5,7 +5,7 @@ function Card3D(props) {
     const { children } = props;
 
     const cardRef = useRef(null);
-    const THRESHOLD = 10;
+    const THRESHOLD = 7;
 
     const handleMouseMove = (event) => {
         let bounds = cardRef.current.getBoundingClientRect();
