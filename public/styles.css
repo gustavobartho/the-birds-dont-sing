@@ -1,0 +1,30 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: 'VT323', monospace;
+}
+
+body {
+    background: rgb(0, 128, 128);
+    min-width: 100%;
+    padding: 0 20px;
+}
+
+main {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+@media screen and (max-width: 600px) {
+    main {
+        align-items: center;
+    }
+}

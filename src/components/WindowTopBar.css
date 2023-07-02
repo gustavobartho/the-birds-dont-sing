@@ -1,0 +1,24 @@
+.top-bar {
+    width: 100%;
+    min-height: 25px;
+    background-image: linear-gradient(to right, rgb(9, 0, 139), rgb(116, 150, 243));
+    padding: 0 5px;
+    font-weight: 600;
+    font-size: 1rem;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.close-icon {
+    width: 18px;
+    height: 18px;
+    background-color: silver;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+}

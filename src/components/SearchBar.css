@@ -1,0 +1,38 @@
+.search-bar {
+    height: fit-content;
+    width: fit-content;
+    width: 100%;
+}
+
+.menu-buttons {
+    width: 100%;
+    background-color: silver;
+    padding: 2px;
+    display: flex;
+    flex-direction: row;
+    column-gap: 5px;
+}
+
+.search-input {
+    width: 100%;
+    flex: 1;
+    border: none;
+    font-size: 1rem;
+    font-weight: 500;
+    outline: none;
+    background: transparent;
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+}
+
+.search-input input {
+    width: 100%;
+    font-family: inherit;
+    font-size: 1.2rem;
+    background-color: #fff;
+    box-shadow: inset -1px -1px #fff, inset 1px 1px grey, inset -2px -2px #dfdfdf, inset 2px 2px #0a0a0a;
+    box-sizing: border-box;
+    padding: 3px 5px;
+    outline: none;
+}

@@ -1,0 +1,19 @@
+.menu-button {
+    font: inherit;
+    background-color: silver;
+    min-width: 75px;
+    height: 25px;
+    padding: 0 12px;
+    border: 2px outset rgb(219, 219, 204);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-weight: 200;
+    font-size: 1.2rem;
+    cursor: pointer;
+}
+
+.menu-button:active {
+    border-style: inset;
+}

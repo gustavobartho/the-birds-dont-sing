@@ -1,0 +1,15 @@
+.prompt-window {
+    width: 100%;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+    padding: 3px;
+}
+
+.prompt-text-area {
+    background-color: black;
+    color: green;
+    font-family: inherit;
+    padding: 5px;
+    font-size: 1.3rem;
+    font-weight: 700;
+    width: 100%;
+}

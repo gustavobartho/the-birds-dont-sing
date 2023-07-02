@@ -1,0 +1,11 @@
+.texts-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+@media screen and (max-width: 600px) {
+    .texts-grid {
+        justify-content: center;
+    }
+}

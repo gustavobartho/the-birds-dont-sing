@@ -1,0 +1,17 @@
+footer {
+    padding: 10px 0;
+    margin: auto auto 0 auto;
+}
+
+.footer-window {
+    width: fit-content;
+    background-color: white;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+    padding: 3px;
+}
+
+.footer-text {
+    color: black;
+    text-align: center;
+    margin: 8px 20px 8px 5px;
+}
