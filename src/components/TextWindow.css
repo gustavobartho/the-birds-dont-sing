@@ -1,0 +1,11 @@
+.text-window {
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #dfdfdf, inset -2px -2px grey, inset 2px 2px #fff;
+    padding: 3px;
+    width: 100%;
+}
+
+.text-content {
+    font-size: 1.2rem;
+    padding: 10px;
+    background-color: white;
+}
