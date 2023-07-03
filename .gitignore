@@ -26,3 +26,5 @@ yarn-error.log*
 #firebase hosting files
 firebase.json
 .firebaserc
+firebase-debug.log
+.firebase
