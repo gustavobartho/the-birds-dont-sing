@@ -7,7 +7,7 @@ import { useNavigate } from "react-router-dom";
 function TextCard(props) {
     const { slug, title, text, date } = props.textData;
     const navigate = useNavigate();
-    let formattedDate = `${date.toDate().getDate()}/${date.toDate().getMonth()}/${date.toDate().getFullYear()}`;
+    let formattedDate = `${date.toDate().getDate()}/${date.toDate().getMonth() + 1}/${date.toDate().getFullYear()}`;
 
     const imageSrc = `https://picsum.photos/id/${Math.floor(Math.random() * 500)}/500`;
 
